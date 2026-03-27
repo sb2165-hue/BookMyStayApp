@@ -1,12 +1,13 @@
 import java.util.*;
 
 // Domain मॉडल: Room (Immutable)
-class Room {
+class BookMyStayApp {
   private final String roomType;
   private final double price;
   private final List<String> amenities;
 
-  public Room(String roomType, double price, List<String> amenities) {
+  public (String roomType, double price, List<String> amenities) {
+  public (String roomType, double price, List<String> amenities) {
     this.roomType = roomType;
     this.price = price;
     this.amenities = new ArrayList<>(amenities); // defensive copy
@@ -71,7 +72,7 @@ class SearchService {
 }
 
 // Main class (Driver)
-public class HotelSearchSystem {
+public class  {
 
   public static void main(String[] args) {
 
